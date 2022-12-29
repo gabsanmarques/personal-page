@@ -39,7 +39,7 @@ body {
 /* Works on Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: var(--orange) var(--light-orange);
+  scrollbar-color: var(--light-orange) var(--dark-gray);
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -52,7 +52,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--orange);
+  background-color: var(--dark-gray);
   border: none;
 }
 

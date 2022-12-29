@@ -1,7 +1,7 @@
 import { aboutBanner } from "../assets"
 
 const About = () => (
-    <section id="about" className=" flex flex-col">
+    <section id="about" className=" flex flex-col py-10">
         <div className="bg-orange w-[100vw] py-2 px-5 ">
             <h3 className="font-russo text-[36px] text-lightOrange leading-8">about me</h3>
         </div>
