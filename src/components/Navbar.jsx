@@ -11,7 +11,7 @@ const Navbar = () => {
             <img 
                 src={logoDark} 
                 alt="logo" 
-                className="w-[40px] h-[40px]"
+                className="w-[40px] h-[40px] sm:hidden"
             />
             <ul className="list-none sm:flex hidden xl:justify-end justify-center items-center flex-1">
                 {navLinks.map((link) => (
@@ -40,7 +40,7 @@ const Navbar = () => {
                     />
                 }
 
-                <div className={`${toggle ? 'sidebar-in' : 'sidebar-out'} px-6 py-[80px] bg-orange left-0 top-0 min-w-[250px] h-[100vh] sidebar fixed`}>
+                <div className={`${toggle ? 'sidebar-in' : 'sidebar-out'} px-6 py-[80px] bg-orange left-0 top-0 min-w-[250px] h-[100vh] sidebar fixed z-[1]`}>
                     <ul className="flex flex-col justify-start items-center flex-1">
                         {navLinks.map((link) => (
                             <li 

@@ -1,4 +1,5 @@
-
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 
 export const navLinks = [
     {
@@ -19,23 +20,26 @@ export const navLinks = [
     },
   ];
 
-  export const socialMedia = [
+export const socialMedia = [
     {
-      id: "social-media-1",
-      icon: "<AiFillGithub />",
+      id: "social-media-github",
+      icon: AiFillGithub,
       link: "https://github.com/gabsanmarques",
     },
     {
-      id: "about",
-      title: "ABOUT",
+      id: "social-media-twitter",
+      icon: AiFillLinkedin,
+      link: "https://www.linkedin.com/in/gabsanmarques/",
     },
     {
-      id: "projects",
-      title: "PROJECTS",
+      id: "social-media-linkedin",
+      icon: AiOutlineTwitter,
+      link: "https://github.com/gabsanmarques",
     },
     {
-      id: "contact",
-      title: "CONTACT",
+      id: "social-media-gmail",
+      icon: SiGmail,
+      link: "https://mail.google.com/mail/?view=cm&fs=1&to=gabrielsmdev@gmail.com",
     },
   ];
   
