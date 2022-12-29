@@ -1,7 +1,7 @@
 import { heroBanner } from "../assets"
 
 const Hero = () => (
-    <section id="home" className="flex sm:flex-row flex-col justify-start items-center sm:-mt-[80px] mt-8">
+    <section id="home" className="flex sm:flex-row flex-col justify-start items-center sm:-mt-[80px] mt-8 mb-[50px]">
 
         <div className="flex flex-col sm:min-w-[500px]">
 

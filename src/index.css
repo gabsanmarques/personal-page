@@ -7,6 +7,7 @@
 :root {
   --orange: #FF9F1C;
   --light-orange: #FFF7EB;
+  --dark-gray: #1E1E1E;
 }
 
 html, body {
@@ -33,6 +34,26 @@ body {
   100% {
     color: var(--orange);
   }
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--orange) var(--light-orange);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--light-orange);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  border: none;
 }
 
 .bold-orange {
