@@ -1,7 +1,7 @@
 import { heroBanner } from "../assets"
 
 const Hero = () => (
-    <section id="home" className="flex sm:flex-row flex-col justify-start items-center sm:-mt-[80px]">
+    <section id="home" className="flex sm:flex-row flex-col justify-start items-center sm:-mt-[80px] mt-8">
 
         <div className="flex flex-col sm:min-w-[500px]">
 
@@ -20,7 +20,7 @@ const Hero = () => (
 
         <div className="flex object-contain sm:w-[655px] w-[100%] flex-shrink-0 -z-[1]">
 
-            <img src={heroBanner} alt="" />
+            <img src={heroBanner} alt="main-banner" />
 
         </div>
 

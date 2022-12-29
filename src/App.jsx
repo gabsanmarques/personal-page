@@ -2,13 +2,14 @@ import { styles } from './style';
 import { 
   Hero,
   Navbar,
-  SocialBar 
+  SocialBar,
+  About
 } from './components';
 
 function App() {
 
   return (
-    <div className="w-full h-[100vh] overflow-x-hidden flex flex-row justify sm:px-0 px-10">
+    <div className="w-full h-[100vh] overflow-x-hidden flex flex-row justify-center sm:px-0 px-10">
 
       <div className="h-full sm:flex hidden flex-auto px-10 fixed left-0 top-0">
         <SocialBar />
@@ -18,8 +19,9 @@ function App() {
           <Navbar />
           
           <Hero />
+          
+          <About />
           {/*
-          About <br />
           Projects <br />
           Contact <br />
           Footer <br />

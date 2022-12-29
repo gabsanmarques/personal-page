@@ -35,6 +35,11 @@ body {
   }
 }
 
+.bold-orange {
+  font-weight: bold;
+  color: var(--orange);
+}
+
 .underline-nav {
   display: inline-block;
   position: relative;
