@@ -7,17 +7,17 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className="flex w-full py-6 px-10">
+        <nav className="flex w-full py-6 sm:px-0">
             <img 
                 src={logoDark} 
                 alt="logo" 
-                className="w-[40px] h-[40px] sm:hidden"
+                className="w-[40px] h-[40px] sm:hidden "
             />
-            <ul className="list-none sm:flex hidden xl:justify-end justify-center items-center flex-1">
-                {navLinks.map((link) => (
+            <ul className="list-none sm:flex hidden justify-start items-center flex-1">
+                {navLinks.map((link, index) => (
                     <li 
                         key={link.id}
-                        className={`font-josefin font-medium cursor-pointer text-[16px] mx-8
+                        className={`font-josefin font-medium cursor-pointer text-[16px] ${index === 0 ? 'mr-8' : 'mx-8'}
                             text-mediumBlue hover:text-darkBlue underline-nav`}
                     >
                         <a href={`#${link.id}`}>
