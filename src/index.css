@@ -62,29 +62,18 @@ body {
   transform-origin: bottom center;
 }
 
-.sidebar-in {
-  -webkit-animation: slide-right 0.5s ease-out;
-  animation: slide-right 0.5s ease-out;
+.sidebar {
+  flex: 0 0 300px;
+  transition: all 1s ease;
 }
 
-@keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(-300px);
-    transform: translateX(-300px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-} 
+.sidebar-in {
+  transform: translateX(0);
+  flex: 1;
+}
 
-@-webkit-keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(-300px);
-    transform: translateX(-300px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-} 
+.sidebar-out {
+  transform: translateX(-100%);
+  flex: 0;
+  width: 0px;
+}

@@ -40,7 +40,7 @@ const Navbar = () => {
                     />
                 }
 
-                <div className={`${toggle ? 'flex sidebar-in' : 'hidden'} px-6 py-[80px] bg-orange left-0 top-0 min-w-[250px] h-[100vh] fixed`}>
+                <div className={`${toggle ? 'sidebar-in' : 'sidebar-out'} px-6 py-[80px] bg-orange left-0 top-0 min-w-[250px] h-[100vh] sidebar fixed`}>
                     <ul className="flex flex-col justify-start items-center flex-1">
                         {navLinks.map((link) => (
                             <li 
