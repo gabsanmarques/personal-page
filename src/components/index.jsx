@@ -3,11 +3,13 @@ import SocialBar from "./SocialBar";
 import Hero from "./Hero";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
     Navbar,
     SocialBar,
     Hero,
     About,
-    Contact
+    Contact,
+    Footer
 }

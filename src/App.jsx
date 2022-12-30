@@ -4,7 +4,8 @@ import {
   Navbar,
   SocialBar,
   About,
-  Contact
+  Contact,
+  Footer
 } from './components';
 
 function App() {
@@ -24,9 +25,11 @@ function App() {
           <About />
 
           <Contact />
+
+          <Footer />
+          
           {/*
           Projects <br />
-          Contact <br />
           Footer <br />
           */}
       </div>

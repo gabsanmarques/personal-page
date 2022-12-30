@@ -10,7 +10,7 @@ const About = () => (
             <div className="object-contain max-w-[500px]">
                 <img src={aboutBanner} alt="" />
             </div>
-            <div className="flex flex-col justify-center text-josefin font-regular text-mediumBlue text-[22px] max-w-[500px] sm:mt-0 mt-10">
+            <div className="flex flex-col justify-center text-josefin font-regular text-mediumBlue text-[18px] sm:text-[22px] max-w-[500px] sm:mt-0 mt-10">
                 <p className="mb-8">
                     Hi there! My name is Gabriel and I am a passionate frontend student who loves creating. I am currently studying computer science and am seeking opportunities to showcase my skills.
                 </p>
