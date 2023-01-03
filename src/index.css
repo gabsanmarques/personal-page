@@ -103,3 +103,41 @@ body {
   flex: 0;
   width: 0px;
 }
+
+.card-overlay {
+  transform: translateY(100%);
+  transition: .3s ease-in-out;
+}
+
+.card:hover .card-overlay {
+  transform: translateY(0);
+}
+
+.card-title {
+  transform: translateY(-100%);
+  transition: .3s ease-in-out;
+}
+
+.card:hover .card-title {
+  padding-bottom: 0;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .card-overlay {
+    transform: translateY(0);
+  }
+  
+  .card:hover .card-overlay {
+    transform: translateY(0);
+  }
+  
+  .card-title {
+    transform: translateY(0);
+  }
+  
+  .card:hover .card-title {
+    padding-bottom: 0;
+    transform: translateY(0);
+  }
+}

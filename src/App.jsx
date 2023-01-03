@@ -4,6 +4,7 @@ import {
   Navbar,
   SocialBar,
   About,
+  Projects,
   Contact,
   Footer
 } from './components';
@@ -19,22 +20,18 @@ function App() {
 
       <div className={`${styles.boxWidth} sm:pl-[150px] pl-0`}>
           <Navbar />
-          
           <Hero />
-          
           <About />
-
+          <Projects />
           <Contact />
-
           <Footer />
           
           {/*
           Projects <br />
-          Footer <br />
           */}
       </div>
 
-    </div>
+    </div> 
 
    
   )

@@ -1,4 +1,5 @@
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import { hoobankBanner, personalBanner } from "../assets";
 import { SiGmail } from "react-icons/si";
 
 export const navLinks = [
@@ -39,7 +40,24 @@ export const socialMedia = [
     {
       id: "social-media-gmail",
       icon: SiGmail,
-      link: "https://mail.google.com/mail/?view=cm&fs=1&to=gabrielsmdev@gmail.com",
+      link: "mailto:gabrielsmdev@gmail.com",
     },
   ];
+
+export const projects = [
+  {
+    id: "hookbank-page",
+    title: "HooBank (ficticious) Landing Page",
+    link: "https://gabsanmarques.github.io/react-landing-page-01/",
+    banner: hoobankBanner,
+    desc: "A modern, responsive landing page made with React and Tailwind CSS."
+  },
+  {
+    id: "personal-page",
+    title: "Personal Portfolio Page",
+    link: "https://gabsanmarques.github.io/react-landing-page-01/",
+    banner: personalBanner,
+    desc: "A responsive and smoothly animated portfolio page made with React and Tailwind CSS."
+  },
+]
   
