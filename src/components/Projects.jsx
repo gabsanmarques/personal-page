@@ -8,7 +8,7 @@ const Projects = () => (
 
         <ul className="flex flex-row py-5 gap-5 flex-wrap justify-center list-none">
             {projects.map((project, index) => (
-                <li key={project.id} className="card block relative overflow-hidden rounded-2xl w-[100%] sm:w-[30%] cursor-pointer flex-0 decoration-none">
+                <li key={project.id} className="card block relative overflow-hidden rounded-2xl w-[100%] sm:w-[30%] cursor-pointer flex-0 decoration-none sm:h-auto max-h-[400px]">
                     <a href={project.link} target="_blank">
                         <img src={project.banner} alt="" />
                         <div className="card-overlay bg-orange font-josefin text-lightOrange absolute bottom-0 left-0 right-0 rounded-t-3xl">

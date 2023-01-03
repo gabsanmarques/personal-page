@@ -55,7 +55,7 @@ export const projects = [
   {
     id: "personal-page",
     title: "Personal Portfolio Page",
-    link: "https://gabsanmarques.github.io/react-landing-page-01/",
+    link: "",
     banner: personalBanner,
     desc: "A responsive and smoothly animated portfolio page made with React and Tailwind CSS."
   },
